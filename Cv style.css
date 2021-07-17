@@ -1,0 +1,228 @@
+*{ margin: 0;
+padding: 0;
+font-family: roboto;
+}
+
+body{ background-color:rgba(181, 176, 176, 0.645);}
+
+
+.container{max-width: 1000px;
+    
+    
+    background-color:rgb(187, 225, 255);
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+
+/*---header start------
+----*/
+.profile-img{ 
+    width: 180px;
+    height: 175px;
+    border: 7px solid rgb(73, 93, 206);
+    border-radius: 50%;
+    float: left;
+    
+}
+h1,h2,h3,h4,h5,h6{color:rgb(29, 143, 184)}
+
+
+.profile-bio{float: left;
+    padding: 30px;
+
+}
+.contract-info{float: right;
+    
+
+}
+.contract-info a{ text-decoration: none;
+color:rgb(29, 143, 184);
+text-align:left;
+padding: 10px;
+font-weight: bold;
+}
+
+.contract-info a:hover{
+    color: rgb(221, 101, 9);
+    text-decoration: underline;
+}
+
+.div-clear{ clear: both;}
+
+
+
+hr{ border: 5px solid rgb(160, 99, 18);
+border-bottom: none;
+margin: 20px auto;
+}
+
+
+
+/*----------
+personal info start---
+-----*/
+
+.contant{ margin-bottom: 20px;}
+
+
+
+.left-div{float: left;
+    width: 30%;
+    
+
+}
+
+
+
+.right-div{float:left;
+    width: 70%;
+
+}
+.right-div p{ color:rgb(29, 143, 184);
+    text-align: justify;
+    padding: 5px;
+
+
+
+}
+
+.div-clear{ clear: both;
+
+
+}
+
+
+.common-hr{ border: 1px solid rgb(21, 18, 16);
+    border-bottom: none;
+
+    
+    
+}
+.right-div ul li{list-style: square;
+    color: rgb(29, 143, 184);
+    text-align: justify;
+    padding: 5px;
+    
+
+}
+
+
+
+/*---academic section---*/
+
+
+.academic-section {margin-bottom: 30px;}
+
+   .head-q{padding: 5px;
+       
+   } 
+.academic-table{ margin: 0 auto;
+    border: 1px solid rgba(13, 17, 17, 0.83);
+    border-collapse: collapse;
+    
+    
+}
+.academic-table td{
+    
+border: 1px solid rgb(29, 143, 184);
+padding: 10px;
+text-align:center;
+color: rgb(29, 143, 184);
+}
+.div-clear{clear: both;}
+
+/*--academic end--*/
+
+
+
+
+
+/*--technical skill*/
+.skill{ margin: 15px 5px;}
+
+
+.known{ 
+    float: left;
+width: 30%;
+
+}
+.list  {
+    float: left;
+color: rgb(29, 143, 184);
+width: 70%;
+}
+.list ul li{
+    list-style: square;
+    padding: 2px;
+}
+.div-clear{ clear: both;}
+
+/*--personal info start--*/
+
+.personal-info{
+    margin: 30px auto;
+}
+.p-head{float: left;
+    
+width: 30%;
+}
+.address{
+    float: left;
+    
+    width: 70%;
+    color: rgb(29, 143, 184);
+}
+.address ul li{ list-style: none;
+    padding: 2px;
+}
+.div-clear{ clear: both;}
+
+
+
+
+
+
+/*---foot-er start----*/
+.foot-er{background-color: rgba(73, 83, 106, 0.775);
+    text-align: center;
+    margin: 0 auto;
+    width: 1016px;
+    min-height: 37px;
+    padding: 6px;
+    border: 1px solid rgba(4, 3, 3, 0.994);
+    
+
+}
+
+
+.foot-er a{text-decoration: none;
+text-align: center;
+    padding: 3px 10px;
+    background-color: rgb(237, 13, 13);
+    color: #fff;
+    margin-top: 4px;
+    margin-inline: 10px;
+   float: left; 
+   
+}
+
+.foot-er div a:last-child{ background-color: rgb(37, 151, 192);}
+.foot-er div a:first-child{ background-color: rgb(39, 99, 230); }
+
+
+.foot-er div a:hover{
+    background-color: rgba(30, 211, 60, 0.994);
+}
+
+
+
+.foot-er p{ float: right;
+display: inline;
+    color: rgb(163, 169, 204);
+    font-weight: lighter;
+    font-size: smaller;
+    margin-top: 20px;
+    
+}
